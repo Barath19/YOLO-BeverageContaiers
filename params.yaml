@@ -1,0 +1,7 @@
+epochs: 50
+batch_size: 16
+learning_rate: 0.01
+model: "checkpoints/yolov8n.pt"
+data: "dataset/data.yaml"  
+img_size: 640
+half: false
